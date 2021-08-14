@@ -17,4 +17,4 @@ apt install tmux
 #install nvim
 apt install neovim
 clear
-echo "Welcome back Pwnker...
+echo "Welcome back Pwnker..."
