@@ -5,11 +5,11 @@ apt install zsh
 chsh -s $(which zsh)
 
 # clone config files
-wget -O .zshrc https://raw.githubusercontent.com/pwnker/dotfiles-and-scripts/main/.zshrc -P ~/
-wget -O .tmux.conf https://raw.githubusercontent.com/pwnker/dotfiles-and-scripts/main/.tmux.conf -P ~/
+wget -O ~/.zshrc https://raw.githubusercontent.com/pwnker/dotfiles-and-scripts/main/.zshrc
+wget -O ~/.tmux.conf https://raw.githubusercontent.com/pwnker/dotfiles-and-scripts/main/.tmux.conf
 
 mkdir ~/.config/nvim/
-wget -O init.vim https://raw.githubusercontent.com/pwnker/dotfiles-and-scripts/main/init.vim -P ~/.config/nvim/
+wget -O ~/.config/nvim/init.vim https://raw.githubusercontent.com/pwnker/dotfiles-and-scripts/main/init.vim
 
 # install tmux
 apt install tmux
